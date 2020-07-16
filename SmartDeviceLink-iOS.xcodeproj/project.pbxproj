@@ -253,7 +253,6 @@
 		162E839D1A9BDE8B00906325 /* SDLRPCResponseSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 162E82BC1A9BDE8A00906325 /* SDLRPCResponseSpec.m */; };
 		162E839E1A9BDE8B00906325 /* SDLRPCStructSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 162E82BD1A9BDE8A00906325 /* SDLRPCStructSpec.m */; };
 		167ED93C1A9BCB8A00797BE5 /* SmartDeviceLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D61FA1C1A84237100846EE7 /* SmartDeviceLink.framework */; };
-		167ED9461A9BCE5D00797BE5 /* SwiftSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167ED9451A9BCE5D00797BE5 /* SwiftSpec.swift */; };
 		1680B1131A9CD7AD00DBD79E /* SDLProtocolHeaderSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1680B1061A9CD7AD00DBD79E /* SDLProtocolHeaderSpec.m */; };
 		1680B1141A9CD7AD00DBD79E /* SDLV1ProtocolHeaderSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1680B1071A9CD7AD00DBD79E /* SDLV1ProtocolHeaderSpec.m */; };
 		1680B1151A9CD7AD00DBD79E /* SDLV2ProtocolHeaderSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1680B1081A9CD7AD00DBD79E /* SDLV2ProtocolHeaderSpec.m */; };
@@ -1964,7 +1963,6 @@
 		162E82BB1A9BDE8A00906325 /* SDLRPCRequestSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLRPCRequestSpec.m; sourceTree = "<group>"; };
 		162E82BC1A9BDE8A00906325 /* SDLRPCResponseSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLRPCResponseSpec.m; sourceTree = "<group>"; };
 		162E82BD1A9BDE8A00906325 /* SDLRPCStructSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLRPCStructSpec.m; sourceTree = "<group>"; };
-		167ED9451A9BCE5D00797BE5 /* SwiftSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpec.swift; sourceTree = "<group>"; };
 		1680B1061A9CD7AD00DBD79E /* SDLProtocolHeaderSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLProtocolHeaderSpec.m; sourceTree = "<group>"; };
 		1680B1071A9CD7AD00DBD79E /* SDLV1ProtocolHeaderSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLV1ProtocolHeaderSpec.m; sourceTree = "<group>"; };
 		1680B1081A9CD7AD00DBD79E /* SDLV2ProtocolHeaderSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLV2ProtocolHeaderSpec.m; sourceTree = "<group>"; };
@@ -2169,7 +2167,6 @@
 		5D1654581D3E7A1600554D93 /* SDLLifecycleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLLifecycleManager.h; sourceTree = "<group>"; };
 		5D1654591D3E7A1600554D93 /* SDLLifecycleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLLifecycleManager.m; sourceTree = "<group>"; };
 		5D1665A01CF5D5DA00CC4CA1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
-		5D1665A11CF5D5DA00CC4CA1 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = SOURCE_ROOT; };
 		5D1665A21CF5D5DA00CC4CA1 /* Cartfile.private */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.private; sourceTree = SOURCE_ROOT; };
 		5D1665A31CF5D5DA00CC4CA1 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = SOURCE_ROOT; };
 		5D1665A41CF5D5DA00CC4CA1 /* DEPENDENCIES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DEPENDENCIES.md; sourceTree = SOURCE_ROOT; };
@@ -2791,7 +2788,7 @@
 		5D6F7A2D1BC5650B0070BF37 /* SDLLifecycleConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLLifecycleConfiguration.m; sourceTree = "<group>"; };
 		5D6F7A331BC5B9B60070BF37 /* SDLLockScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLLockScreenViewController.h; sourceTree = "<group>"; };
 		5D6F7A341BC5B9B60070BF37 /* SDLLockScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLLockScreenViewController.m; sourceTree = "<group>"; };
-		5D6F7A3D1BC811FC0070BF37 /* SDLAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = SDLAssets.xcassets; path = Assets/SDLAssets.xcassets; sourceTree = "<group>"; };
+		5D6F7A3D1BC811FC0070BF37 /* SDLAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SDLAssets.xcassets; sourceTree = "<group>"; };
 		5D75960B22972F830013207C /* TestSystemCapabilityObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TestSystemCapabilityObserver.h; path = DevAPISpecs/TestSystemCapabilityObserver.h; sourceTree = "<group>"; };
 		5D75960C22972F830013207C /* TestSystemCapabilityObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TestSystemCapabilityObserver.m; path = DevAPISpecs/TestSystemCapabilityObserver.m; sourceTree = "<group>"; };
 		5D75960F22972FCA0013207C /* SDLSystemCapabilityObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDLSystemCapabilityObserver.h; sourceTree = "<group>"; };
@@ -2868,13 +2865,13 @@
 		5D9F50821BEA5C6100FEF399 /* SDLFileManagerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDLFileManagerSpec.m; path = DevAPISpecs/SDLFileManagerSpec.m; sourceTree = "<group>"; };
 		5D9F50851BED412E00FEF399 /* TestConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestConnectionManager.h; path = TestUtilities/TestConnectionManager.h; sourceTree = "<group>"; };
 		5D9F50861BED412E00FEF399 /* TestConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestConnectionManager.m; path = TestUtilities/TestConnectionManager.m; sourceTree = "<group>"; };
-		5D9FC29A1FD8812E00ACA5C2 /* SDLAudioStreamManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDLAudioStreamManagerDelegate.h; path = SmartDeviceLink/SDLAudioStreamManagerDelegate.h; sourceTree = SOURCE_ROOT; };
-		5D9FC29C1FD8813900ACA5C2 /* SDLAudioStreamManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDLAudioStreamManager.h; path = SmartDeviceLink/SDLAudioStreamManager.h; sourceTree = SOURCE_ROOT; };
-		5D9FC29D1FD8813900ACA5C2 /* SDLAudioStreamManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDLAudioStreamManager.m; path = SmartDeviceLink/SDLAudioStreamManager.m; sourceTree = SOURCE_ROOT; };
-		5D9FC2A01FD8814A00ACA5C2 /* SDLAudioFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDLAudioFile.m; path = SmartDeviceLink/SDLAudioFile.m; sourceTree = SOURCE_ROOT; };
-		5D9FC2A11FD8814A00ACA5C2 /* SDLAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDLAudioFile.h; path = SmartDeviceLink/SDLAudioFile.h; sourceTree = SOURCE_ROOT; };
-		5D9FC2A41FD8815800ACA5C2 /* SDLPCMAudioConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDLPCMAudioConverter.h; path = SmartDeviceLink/SDLPCMAudioConverter.h; sourceTree = SOURCE_ROOT; };
-		5D9FC2A51FD8815800ACA5C2 /* SDLPCMAudioConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDLPCMAudioConverter.m; path = SmartDeviceLink/SDLPCMAudioConverter.m; sourceTree = SOURCE_ROOT; };
+		5D9FC29A1FD8812E00ACA5C2 /* SDLAudioStreamManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDLAudioStreamManagerDelegate.h; path = SmartDeviceLink/RealStuff/Managers/Streaming/AudioManager/SDLAudioStreamManagerDelegate.h; sourceTree = SOURCE_ROOT; };
+		5D9FC29C1FD8813900ACA5C2 /* SDLAudioStreamManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDLAudioStreamManager.h; path = SmartDeviceLink/RealStuff/Managers/Streaming/AudioManager/SDLAudioStreamManager.h; sourceTree = SOURCE_ROOT; };
+		5D9FC29D1FD8813900ACA5C2 /* SDLAudioStreamManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDLAudioStreamManager.m; path = SmartDeviceLink/RealStuff/Managers/Streaming/AudioManager/SDLAudioStreamManager.m; sourceTree = SOURCE_ROOT; };
+		5D9FC2A01FD8814A00ACA5C2 /* SDLAudioFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDLAudioFile.m; path = SmartDeviceLink/RealStuff/Managers/Streaming/AudioManager/Utilities/SDLAudioFile.m; sourceTree = SOURCE_ROOT; };
+		5D9FC2A11FD8814A00ACA5C2 /* SDLAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDLAudioFile.h; path = SmartDeviceLink/RealStuff/Managers/Streaming/AudioManager/Utilities/SDLAudioFile.h; sourceTree = SOURCE_ROOT; };
+		5D9FC2A41FD8815800ACA5C2 /* SDLPCMAudioConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDLPCMAudioConverter.h; path = SmartDeviceLink/RealStuff/Managers/Streaming/AudioManager/Utilities/SDLPCMAudioConverter.h; sourceTree = SOURCE_ROOT; };
+		5D9FC2A51FD8815800ACA5C2 /* SDLPCMAudioConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDLPCMAudioConverter.m; path = SmartDeviceLink/RealStuff/Managers/Streaming/AudioManager/Utilities/SDLPCMAudioConverter.m; sourceTree = SOURCE_ROOT; };
 		5D9FDA891F2A7D3400A495C8 /* bson_array.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bson_array.c; path = bson_c_lib/src/bson_array.c; sourceTree = SOURCE_ROOT; };
 		5D9FDA8A1F2A7D3400A495C8 /* bson_array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bson_array.h; path = bson_c_lib/src/bson_array.h; sourceTree = SOURCE_ROOT; };
 		5D9FDA8B1F2A7D3400A495C8 /* bson_object.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bson_object.c; path = bson_c_lib/src/bson_object.c; sourceTree = SOURCE_ROOT; };
@@ -3431,52 +3428,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		001A08B22321ACE90078A31E /* Delegates */ = {
-			isa = PBXGroup;
-			children = (
-				001A08B32321ADD30078A31E /* SDLServiceEncryptionDelegate.h */,
-			);
-			name = Delegates;
-			sourceTree = "<group>";
-		};
-		005DF3BE22C590FB006E01A9 /* Lifecycle */ = {
-			isa = PBXGroup;
-			children = (
-				005DF3C322C59191006E01A9 /* SDLEncryptionLifecycleManager.h */,
-				005DF3C422C59191006E01A9 /* SDLEncryptionLifecycleManager.m */,
-			);
-			name = Lifecycle;
-			sourceTree = "<group>";
-		};
-		005DF3C722C62DDA006E01A9 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				005DF3C822C62E00006E01A9 /* SDLEncryptionManagerConstants.h */,
-				005DF3C922C62E00006E01A9 /* SDLEncryptionManagerConstants.m */,
-			);
-			name = Utilities;
-			sourceTree = "<group>";
-		};
-		00E22CE822C2F19700BC6B08 /* Encryption */ = {
-			isa = PBXGroup;
-			children = (
-				00E22CE922C2F1A400BC6B08 /* Configuration */,
-				001A08B22321ACE90078A31E /* Delegates */,
-				005DF3BE22C590FB006E01A9 /* Lifecycle */,
-				005DF3C722C62DDA006E01A9 /* Utilities */,
-			);
-			name = Encryption;
-			sourceTree = "<group>";
-		};
-		00E22CE922C2F1A400BC6B08 /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				00E22CEB22C2F1B300BC6B08 /* SDLEncryptionConfiguration.h */,
-				00E22CEA22C2F1B200BC6B08 /* SDLEncryptionConfiguration.m */,
-			);
-			name = Configuration;
-			sourceTree = "<group>";
-		};
 		00EADD3122DFDF680088B608 /* Encryption */ = {
 			isa = PBXGroup;
 			children = (
@@ -4001,19 +3952,6 @@
 			name = Connection;
 			sourceTree = "<group>";
 		};
-		5D07C0342044AD1900D1ECDC /* Request Operations */ = {
-			isa = PBXGroup;
-			children = (
-				5D07C02F2044AD0C00D1ECDC /* SDLAsynchronousRPCRequestOperation.h */,
-				5D07C0302044AD0C00D1ECDC /* SDLAsynchronousRPCRequestOperation.m */,
-				5D07C02B2044AC9000D1ECDC /* SDLSequentialRPCRequestOperation.h */,
-				5D07C02C2044AC9100D1ECDC /* SDLSequentialRPCRequestOperation.m */,
-				88F89101221DE29A00E056AD /* SDLAsynchronousRPCOperation.h */,
-				888F86FD221DEE1F0052FE4C /* SDLAsynchronousRPCOperation.m */,
-			);
-			name = "Request Operations";
-			sourceTree = "<group>";
-		};
 		5D0A736F203F0C450001595D /* Screen */ = {
 			isa = PBXGroup;
 			children = (
@@ -4025,35 +3963,6 @@
 				5DAD5F7E204DEDEB0025624C /* SDLScreenManager.m */,
 			);
 			name = Screen;
-			sourceTree = "<group>";
-		};
-		5D0A7376203F0C8F0001595D /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				5D8204181BCD80BA00D0A41B /* SDLLockScreenConfiguration.h */,
-				5D8204191BCD80BA00D0A41B /* SDLLockScreenConfiguration.m */,
-			);
-			name = Configuration;
-			sourceTree = "<group>";
-		};
-		5D0A7377203F0C9E0001595D /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				5DA23FFE1F325621009C0313 /* SDLStreamingMediaConfiguration.h */,
-				5DA23FFF1F325621009C0313 /* SDLStreamingMediaConfiguration.m */,
-			);
-			name = Configuration;
-			sourceTree = "<group>";
-		};
-		5D0A7378203F0CB10001595D /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				5D6F7A2C1BC5650B0070BF37 /* SDLLifecycleConfiguration.h */,
-				5D6F7A2D1BC5650B0070BF37 /* SDLLifecycleConfiguration.m */,
-				E4139D1B1F6017770005B6EA /* SDLLifecycleConfigurationUpdate.h */,
-				E4139D1C1F6017770005B6EA /* SDLLifecycleConfigurationUpdate.m */,
-			);
-			name = Configuration;
 			sourceTree = "<group>";
 		};
 		5D0A737D203F23B30001595D /* Text and Graphic */ = {
@@ -4089,17 +3998,6 @@
 			name = Lifecycle;
 			sourceTree = "<group>";
 		};
-		5D1654571D3E79CA00554D93 /* Lifecycle */ = {
-			isa = PBXGroup;
-			children = (
-				5D07C0342044AD1900D1ECDC /* Request Operations */,
-				5D0A7378203F0CB10001595D /* Configuration */,
-				5D1654581D3E7A1600554D93 /* SDLLifecycleManager.h */,
-				5D1654591D3E7A1600554D93 /* SDLLifecycleManager.m */,
-			);
-			name = Lifecycle;
-			sourceTree = "<group>";
-		};
 		5D1BF6AA2047429C00D36881 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -4107,28 +4005,6 @@
 				2B23352F232BD8A5002118E5 /* SDLWindowCapability+ShowManagerExtensions.m */,
 			);
 			name = Utilities;
-			sourceTree = "<group>";
-		};
-		5D23C9441FCF59F400002CA5 /* AudioManager */ = {
-			isa = PBXGroup;
-			children = (
-				5D9FC29C1FD8813900ACA5C2 /* SDLAudioStreamManager.h */,
-				5D9FC29D1FD8813900ACA5C2 /* SDLAudioStreamManager.m */,
-				5D9FC29A1FD8812E00ACA5C2 /* SDLAudioStreamManagerDelegate.h */,
-				5D23C9471FCF59F400002CA5 /* Utilities */,
-			);
-			path = AudioManager;
-			sourceTree = "<group>";
-		};
-		5D23C9471FCF59F400002CA5 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				5D9FC2A41FD8815800ACA5C2 /* SDLPCMAudioConverter.h */,
-				5D9FC2A51FD8815800ACA5C2 /* SDLPCMAudioConverter.m */,
-				5D9FC2A11FD8814A00ACA5C2 /* SDLAudioFile.h */,
-				5D9FC2A01FD8814A00ACA5C2 /* SDLAudioFile.m */,
-			);
-			path = Utilities;
 			sourceTree = "<group>";
 		};
 		5D339CE5207C0651000CC364 /* Menu */ = {
@@ -4154,15 +4030,6 @@
 				5D339CEE207C08BA000CC364 /* SDLVoiceCommand.m */,
 			);
 			name = Cells;
-			sourceTree = "<group>";
-		};
-		5D3E48771D6F3DA40000BFEF /* Superclass Operation */ = {
-			isa = PBXGroup;
-			children = (
-				5D3E48731D6F3B330000BFEF /* SDLAsynchronousOperation.h */,
-				5D3E48741D6F3B330000BFEF /* SDLAsynchronousOperation.m */,
-			);
-			name = "Superclass Operation";
 			sourceTree = "<group>";
 		};
 		5D3E48781D6F86EC0000BFEF /* Notifications */ = {
@@ -5320,15 +5187,6 @@
 			name = ProxySpecs;
 			sourceTree = "<group>";
 		};
-		5D6008871BE3ED470094A505 /* State Machine */ = {
-			isa = PBXGroup;
-			children = (
-				5D6008881BE3ED540094A505 /* SDLStateMachine.h */,
-				5D6008891BE3ED540094A505 /* SDLStateMachine.m */,
-			);
-			name = "State Machine";
-			sourceTree = "<group>";
-		};
 		5D6035CD202CD3F600A429C9 /* Test Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -5343,19 +5201,11 @@
 			name = "Test Utilities";
 			sourceTree = "<group>";
 		};
-		5D616B501D59042B00553F6B /* Errors */ = {
-			isa = PBXGroup;
-			children = (
-				5DA3F3581BC448480026F2D0 /* SDLError.h */,
-				5DA3F3591BC448480026F2D0 /* SDLError.m */,
-				5D616B511D59044400553F6B /* SDLErrorConstants.h */,
-			);
-			name = Errors;
-			sourceTree = "<group>";
-		};
 		5D61FA1D1A84237100846EE7 /* SmartDeviceLink */ = {
 			isa = PBXGroup;
 			children = (
+				70C3EAF624C006980081B29D /* RealStuff */,
+				70C3EAF424C006820081B29D /* include */,
 				5DA3F3511BC4477B0026F2D0 /* Developer API */,
 				5D5934F61A85189500687FB9 /* Utilities */,
 				5D5934F51A8516C800687FB9 /* Logging */,
@@ -5365,7 +5215,6 @@
 				5D5934ED1A85160400687FB9 /* Proxy */,
 				5D61FA201A84237100846EE7 /* SmartDeviceLink.h */,
 				5D1665A01CF5D5DA00CC4CA1 /* .gitignore */,
-				5D1665A11CF5D5DA00CC4CA1 /* .travis.yml */,
 				5D1665A21CF5D5DA00CC4CA1 /* Cartfile.private */,
 				5D1665A31CF5D5DA00CC4CA1 /* CHANGELOG.md */,
 				5D1665A41CF5D5DA00CC4CA1 /* DEPENDENCIES.md */,
@@ -5399,7 +5248,6 @@
 				EE5D1B31208EBC7100D17216 /* TransportSpecs */,
 				162E81E01A9BDE8A00906325 /* RPCSpecs */,
 				5D61FA2D1A84237100846EE7 /* Supporting Files */,
-				167ED9451A9BCE5D00797BE5 /* SwiftSpec.swift */,
 			);
 			path = SmartDeviceLinkTests;
 			sourceTree = "<group>";
@@ -5440,17 +5288,6 @@
 			name = Categories;
 			sourceTree = "<group>";
 		};
-		5D6F7A301BC5B7100070BF37 /* Lock Screen UI */ = {
-			isa = PBXGroup;
-			children = (
-				5D6F7A3D1BC811FC0070BF37 /* SDLAssets.xcassets */,
-				5D616B481D552F7A00553F6B /* SDLLockScreen.storyboard */,
-				5D6F7A331BC5B9B60070BF37 /* SDLLockScreenViewController.h */,
-				5D6F7A341BC5B9B60070BF37 /* SDLLockScreenViewController.m */,
-			);
-			name = "Lock Screen UI";
-			sourceTree = "<group>";
-		};
 		5D75960A22972F620013207C /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -5487,18 +5324,6 @@
 			name = LockScreen;
 			sourceTree = "<group>";
 		};
-		5D76E31F1D39731100647CFA /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				880723E923A2CFB4003D0489 /* SDLLockScreenRootViewController.h */,
-				880723EA23A2CFB4003D0489 /* SDLLockScreenRootViewController.m */,
-				5D76E3201D39742300647CFA /* SDLViewControllerPresentable.h */,
-				5D76E3221D39767000647CFA /* SDLLockScreenPresenter.h */,
-				5D76E3231D39767000647CFA /* SDLLockScreenPresenter.m */,
-			);
-			name = Utilities;
-			sourceTree = "<group>";
-		};
 		5D76E3261D3D0A4700647CFA /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -5506,66 +5331,6 @@
 				5D76E3281D3D0A8800647CFA /* SDLFakeViewControllerPresenter.m */,
 			);
 			name = Utilities;
-			sourceTree = "<group>";
-		};
-		5D7F87F51CE51CD8002DD7C4 /* File Types */ = {
-			isa = PBXGroup;
-			children = (
-				5D82042B1BCEC32F00D0A41B /* SDLFile.h */,
-				5D82042C1BCEC32F00D0A41B /* SDLFile.m */,
-				5D82042F1BD001C700D0A41B /* SDLArtwork.h */,
-				5D8204301BD001C700D0A41B /* SDLArtwork.m */,
-			);
-			name = "File Types";
-			sourceTree = "<group>";
-		};
-		5D7F87F61CE51CE1002DD7C4 /* Transaction Operations */ = {
-			isa = PBXGroup;
-			children = (
-				5D3E48771D6F3DA40000BFEF /* Superclass Operation */,
-				5D1665C21CF8CA2700CC4CA1 /* SDLListFilesOperation.h */,
-				5D1665C31CF8CA2700CC4CA1 /* SDLListFilesOperation.m */,
-				5D79A0391CE36F030035797B /* SDLUploadFileOperation.h */,
-				5D79A03A1CE36F030035797B /* SDLUploadFileOperation.m */,
-				5D7F87E91CE3C1A1002DD7C4 /* SDLDeleteFileOperation.h */,
-				5D7F87EA1CE3C1A1002DD7C4 /* SDLDeleteFileOperation.m */,
-			);
-			name = "Transaction Operations";
-			sourceTree = "<group>";
-		};
-		5D7F87F71CE51CEE002DD7C4 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				5D7F87ED1CE3C294002DD7C4 /* SDLFileManagerConstants.h */,
-				5D7F87F11CE3C29E002DD7C4 /* SDLFileWrapper.h */,
-				5D7F87F21CE3C29E002DD7C4 /* SDLFileWrapper.m */,
-			);
-			name = Utilities;
-			sourceTree = "<group>";
-		};
-		5D8204291BCEA91400D0A41B /* Permissions */ = {
-			isa = PBXGroup;
-			children = (
-				5D1665CC1CF8CA8A00CC4CA1 /* SDLPermissionConstants.h */,
-				5D1665C61CF8CA3D00CC4CA1 /* SDLPermissionFilter.h */,
-				5D1665C71CF8CA3D00CC4CA1 /* SDLPermissionFilter.m */,
-				5D8204241BCEA8A600D0A41B /* SDLPermissionManager.h */,
-				5D8204251BCEA8A600D0A41B /* SDLPermissionManager.m */,
-			);
-			name = Permissions;
-			sourceTree = "<group>";
-		};
-		5D82042A1BCEA91E00D0A41B /* Files */ = {
-			isa = PBXGroup;
-			children = (
-				880245A120F79BDA00ED195B /* Configuration */,
-				5D8204201BCEA89A00D0A41B /* SDLFileManager.h */,
-				5D8204211BCEA89A00D0A41B /* SDLFileManager.m */,
-				5D7F87F51CE51CD8002DD7C4 /* File Types */,
-				5D7F87F61CE51CE1002DD7C4 /* Transaction Operations */,
-				5D7F87F71CE51CEE002DD7C4 /* Utilities */,
-			);
-			name = Files;
 			sourceTree = "<group>";
 		};
 		5D92935720B33D3C00FCC775 /* Choice Set */ = {
@@ -5704,51 +5469,10 @@
 		5DA3F3511BC4477B0026F2D0 /* Developer API */ = {
 			isa = PBXGroup;
 			children = (
-				5DA3F3561BC4480E0026F2D0 /* Utilities */,
 				5DBAE0A61D355EF200CE00BF /* Managers */,
 				5DBAE0A71D355F0C00CE00BF /* Dispatchers */,
 			);
 			name = "Developer API";
-			sourceTree = "<group>";
-		};
-		5DA3F3561BC4480E0026F2D0 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				5DFFB9141BD7C89700DB3F04 /* SDLConnectionManagerType.h */,
-				EE6CBF872064CAEE00EEE0CA /* SDLStreamingProtocolDelegate.h */,
-				5D616B501D59042B00553F6B /* Errors */,
-				5DA3F35C1BC4484B0026F2D0 /* Notifications */,
-				5DA3F3571BC448160026F2D0 /* Categories */,
-				5D6008871BE3ED470094A505 /* State Machine */,
-				5DD60D96221C5D7D00A82A4F /* SDLVersion.h */,
-				5DD60D97221C5D7D00A82A4F /* SDLVersion.m */,
-			);
-			name = Utilities;
-			sourceTree = "<group>";
-		};
-		5DA3F3571BC448160026F2D0 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				5D1665CA1CF8CA6700CC4CA1 /* NSNumber+NumberType.h */,
-				5DA3F3521BC448060026F2D0 /* NSMapTable+Subscripting.h */,
-				5DA3F3531BC448060026F2D0 /* NSMapTable+Subscripting.m */,
-				5DA102A21D4122C700C15826 /* NSMutableDictionary+SafeRemove.h */,
-				5DA102A31D4122C700C15826 /* NSMutableDictionary+SafeRemove.m */,
-				5D3E48C91D7722FE0000BFEF /* NSBundle+SDLBundle.h */,
-				5D3E48CA1D7722FE0000BFEF /* NSBundle+SDLBundle.m */,
-				5D019274214994AC003500F6 /* NSMutableArray+Safe.h */,
-				5D019275214994AC003500F6 /* NSMutableArray+Safe.m */,
-			);
-			name = Categories;
-			sourceTree = "<group>";
-		};
-		5DA3F35C1BC4484B0026F2D0 /* Notifications */ = {
-			isa = PBXGroup;
-			children = (
-				5DA3F35D1BC448590026F2D0 /* SDLNotificationConstants.h */,
-				5DA3F35E1BC448590026F2D0 /* SDLNotificationConstants.m */,
-			);
-			name = Notifications;
 			sourceTree = "<group>";
 		};
 		5DA49C8C1F1E549000E65FC5 /* BSON library */ = {
@@ -5787,17 +5511,6 @@
 				5D4631051F2125F70092EFDC /* @protocols */,
 			);
 			name = "Control Frame Payloads";
-			sourceTree = "<group>";
-		};
-		5DA5918E1F96820F003264C3 /* Focus / Haptic */ = {
-			isa = PBXGroup;
-			children = (
-				1FF7DAB71F75B28E00B46C30 /* SDLFocusableItemHitTester.h */,
-				1FF7DAB51F75B27300B46C30 /* SDLFocusableItemLocatorType.h */,
-				1FF7DAB91F75B2A800B46C30 /* SDLFocusableItemLocator.h */,
-				1FF7DABB1F75B2BF00B46C30 /* SDLFocusableItemLocator.m */,
-			);
-			name = "Focus / Haptic";
 			sourceTree = "<group>";
 		};
 		5DAB5F582098E8BC00A020C8 /* IAP */ = {
@@ -5962,31 +5675,9 @@
 			name = "Video Service";
 			sourceTree = "<group>";
 		};
-		5DBAE0A51D355EE700CE00BF /* Lock Screen */ = {
-			isa = PBXGroup;
-			children = (
-				5D0A7376203F0C8F0001595D /* Configuration */,
-				5D6F7A301BC5B7100070BF37 /* Lock Screen UI */,
-				5D76E31F1D39731100647CFA /* Utilities */,
-				5D4D67B21D30161600468B4A /* SDLLockScreenManager.h */,
-				5D4D67B31D30161600468B4A /* SDLLockScreenManager.m */,
-			);
-			name = "Lock Screen";
-			sourceTree = "<group>";
-		};
 		5DBAE0A61D355EF200CE00BF /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				00E22CE822C2F19700BC6B08 /* Encryption */,
-				5DA3F36E1BC4489A0026F2D0 /* SDLManager.h */,
-				5DA3F36F1BC4489A0026F2D0 /* SDLManager.m */,
-				5D82041C1BCD8E6100D0A41B /* SDLConfiguration.h */,
-				5D82041D1BCD8E6100D0A41B /* SDLConfiguration.m */,
-				5D2F58071D0717D5001085CE /* SDLManagerDelegate.h */,
-				5D82042A1BCEA91E00D0A41B /* Files */,
-				5D1654571D3E79CA00554D93 /* Lifecycle */,
-				5DBAE0A51D355EE700CE00BF /* Lock Screen */,
-				5D8204291BCEA91400D0A41B /* Permissions */,
 				DA8966E71E56937100413EAB /* Streaming */,
 				5D0A736F203F0C450001595D /* Screen */,
 				880E35B12088F73400181259 /* System Capabilities */,
@@ -6091,17 +5782,6 @@
 			name = General;
 			sourceTree = "<group>";
 		};
-		5DCD7AD91FCCA5BF00A0FC7F /* CarWindow */ = {
-			isa = PBXGroup;
-			children = (
-				5DCD7ADC1FCCA8D100A0FC7F /* SDLCarWindow.h */,
-				5DCD7ADD1FCCA8D200A0FC7F /* SDLCarWindow.m */,
-				5D293AFC1FE078A9000CBD7E /* SDLCarWindowViewController.h */,
-				5D293AFD1FE078A9000CBD7E /* SDLCarWindowViewController.m */,
-			);
-			name = CarWindow;
-			sourceTree = "<group>";
-		};
 		5DD67CAD1E65DD9C009CD394 /* Apple SysLog */ = {
 			isa = PBXGroup;
 			children = (
@@ -6199,6 +5879,374 @@
 			name = Menu;
 			sourceTree = "<group>";
 		};
+		70C3EAF424C006820081B29D /* include */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		70C3EAF624C006980081B29D /* RealStuff */ = {
+			isa = PBXGroup;
+			children = (
+				70C3EAFD24C007320081B29D /* Managers */,
+				70C3EAF724C006A00081B29D /* DeveloperAPI */,
+			);
+			path = RealStuff;
+			sourceTree = "<group>";
+		};
+		70C3EAF724C006A00081B29D /* DeveloperAPI */ = {
+			isa = PBXGroup;
+			children = (
+				5DFFB9141BD7C89700DB3F04 /* SDLConnectionManagerType.h */,
+				EE6CBF872064CAEE00EEE0CA /* SDLStreamingProtocolDelegate.h */,
+				5DD60D96221C5D7D00A82A4F /* SDLVersion.h */,
+				5DD60D97221C5D7D00A82A4F /* SDLVersion.m */,
+				70C3EAF824C006C90081B29D /* Utilities */,
+			);
+			path = DeveloperAPI;
+			sourceTree = "<group>";
+		};
+		70C3EAF824C006C90081B29D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				70C3EAFB24C006EF0081B29D /* Categories */,
+				70C3EAF924C006D40081B29D /* Errors */,
+				70C3EAFA24C006E20081B29D /* Notifications */,
+				70C3EAFC24C006FC0081B29D /* StateMachine */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		70C3EAF924C006D40081B29D /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				5DA3F3581BC448480026F2D0 /* SDLError.h */,
+				5DA3F3591BC448480026F2D0 /* SDLError.m */,
+				5D616B511D59044400553F6B /* SDLErrorConstants.h */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		70C3EAFA24C006E20081B29D /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				5DA3F35D1BC448590026F2D0 /* SDLNotificationConstants.h */,
+				5DA3F35E1BC448590026F2D0 /* SDLNotificationConstants.m */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		70C3EAFB24C006EF0081B29D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				5D3E48C91D7722FE0000BFEF /* NSBundle+SDLBundle.h */,
+				5D3E48CA1D7722FE0000BFEF /* NSBundle+SDLBundle.m */,
+				5DA3F3521BC448060026F2D0 /* NSMapTable+Subscripting.h */,
+				5DA3F3531BC448060026F2D0 /* NSMapTable+Subscripting.m */,
+				5D019274214994AC003500F6 /* NSMutableArray+Safe.h */,
+				5D019275214994AC003500F6 /* NSMutableArray+Safe.m */,
+				5DA102A21D4122C700C15826 /* NSMutableDictionary+SafeRemove.h */,
+				5DA102A31D4122C700C15826 /* NSMutableDictionary+SafeRemove.m */,
+				5D1665CA1CF8CA6700CC4CA1 /* NSNumber+NumberType.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		70C3EAFC24C006FC0081B29D /* StateMachine */ = {
+			isa = PBXGroup;
+			children = (
+				5D6008881BE3ED540094A505 /* SDLStateMachine.h */,
+				5D6008891BE3ED540094A505 /* SDLStateMachine.m */,
+			);
+			path = StateMachine;
+			sourceTree = "<group>";
+		};
+		70C3EAFD24C007320081B29D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				70C3EB1224C00DB80081B29D /* Streaming */,
+				70C3EB1124C00DA70081B29D /* Permissions */,
+				70C3EB0D24C00CD90081B29D /* LockScreen */,
+				5D82041C1BCD8E6100D0A41B /* SDLConfiguration.h */,
+				5DA3F36E1BC4489A0026F2D0 /* SDLManager.h */,
+				5D2F58071D0717D5001085CE /* SDLManagerDelegate.h */,
+				5D82041D1BCD8E6100D0A41B /* SDLConfiguration.m */,
+				5DA3F36F1BC4489A0026F2D0 /* SDLManager.m */,
+				70C3EAFE24C007380081B29D /* Encryption */,
+				70C3EB0324C007AE0081B29D /* Files */,
+				70C3EB0A24C00C920081B29D /* Lifecycle */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		70C3EAFE24C007380081B29D /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				70C3EB0224C007620081B29D /* Utilities */,
+				70C3EB0124C007570081B29D /* Lifecycle */,
+				70C3EB0024C0074E0081B29D /* Delegates */,
+				70C3EAFF24C007430081B29D /* Configuration */,
+			);
+			path = Encryption;
+			sourceTree = "<group>";
+		};
+		70C3EAFF24C007430081B29D /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				00E22CEB22C2F1B300BC6B08 /* SDLEncryptionConfiguration.h */,
+				00E22CEA22C2F1B200BC6B08 /* SDLEncryptionConfiguration.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		70C3EB0024C0074E0081B29D /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				001A08B32321ADD30078A31E /* SDLServiceEncryptionDelegate.h */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		70C3EB0124C007570081B29D /* Lifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				005DF3C322C59191006E01A9 /* SDLEncryptionLifecycleManager.h */,
+				005DF3C422C59191006E01A9 /* SDLEncryptionLifecycleManager.m */,
+			);
+			path = Lifecycle;
+			sourceTree = "<group>";
+		};
+		70C3EB0224C007620081B29D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				005DF3C822C62E00006E01A9 /* SDLEncryptionManagerConstants.h */,
+				005DF3C922C62E00006E01A9 /* SDLEncryptionManagerConstants.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		70C3EB0324C007AE0081B29D /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				70C3EB0824C007F20081B29D /* Utilities */,
+				70C3EB0624C007D00081B29D /* TransactionOperations */,
+				70C3EB0524C007C20081B29D /* FileTypes */,
+				5D8204201BCEA89A00D0A41B /* SDLFileManager.h */,
+				5D8204211BCEA89A00D0A41B /* SDLFileManager.m */,
+				70C3EB0424C007B40081B29D /* Configuration */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		70C3EB0424C007B40081B29D /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				880245A220F79C3400ED195B /* SDLFileManagerConfiguration.h */,
+				880245A320F79C3400ED195B /* SDLFileManagerConfiguration.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		70C3EB0524C007C20081B29D /* FileTypes */ = {
+			isa = PBXGroup;
+			children = (
+				5D82042B1BCEC32F00D0A41B /* SDLFile.h */,
+				5D82042C1BCEC32F00D0A41B /* SDLFile.m */,
+				5D82042F1BD001C700D0A41B /* SDLArtwork.h */,
+				5D8204301BD001C700D0A41B /* SDLArtwork.m */,
+			);
+			path = FileTypes;
+			sourceTree = "<group>";
+		};
+		70C3EB0624C007D00081B29D /* TransactionOperations */ = {
+			isa = PBXGroup;
+			children = (
+				70C3EB0724C007DE0081B29D /* SuperclassOperation */,
+				5D1665C21CF8CA2700CC4CA1 /* SDLListFilesOperation.h */,
+				5D1665C31CF8CA2700CC4CA1 /* SDLListFilesOperation.m */,
+				5D79A0391CE36F030035797B /* SDLUploadFileOperation.h */,
+				5D79A03A1CE36F030035797B /* SDLUploadFileOperation.m */,
+				5D7F87E91CE3C1A1002DD7C4 /* SDLDeleteFileOperation.h */,
+				5D7F87EA1CE3C1A1002DD7C4 /* SDLDeleteFileOperation.m */,
+			);
+			path = TransactionOperations;
+			sourceTree = "<group>";
+		};
+		70C3EB0724C007DE0081B29D /* SuperclassOperation */ = {
+			isa = PBXGroup;
+			children = (
+				5D3E48731D6F3B330000BFEF /* SDLAsynchronousOperation.h */,
+				5D3E48741D6F3B330000BFEF /* SDLAsynchronousOperation.m */,
+			);
+			path = SuperclassOperation;
+			sourceTree = "<group>";
+		};
+		70C3EB0824C007F20081B29D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5D7F87ED1CE3C294002DD7C4 /* SDLFileManagerConstants.h */,
+				5D7F87F11CE3C29E002DD7C4 /* SDLFileWrapper.h */,
+				5D7F87F21CE3C29E002DD7C4 /* SDLFileWrapper.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		70C3EB0A24C00C920081B29D /* Lifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				5D1654581D3E7A1600554D93 /* SDLLifecycleManager.h */,
+				5D1654591D3E7A1600554D93 /* SDLLifecycleManager.m */,
+				70C3EB0C24C00CA30081B29D /* Configuration */,
+				70C3EB0B24C00C9D0081B29D /* RequestOperations */,
+			);
+			path = Lifecycle;
+			sourceTree = "<group>";
+		};
+		70C3EB0B24C00C9D0081B29D /* RequestOperations */ = {
+			isa = PBXGroup;
+			children = (
+				5D07C02F2044AD0C00D1ECDC /* SDLAsynchronousRPCRequestOperation.h */,
+				5D07C0302044AD0C00D1ECDC /* SDLAsynchronousRPCRequestOperation.m */,
+				5D07C02B2044AC9000D1ECDC /* SDLSequentialRPCRequestOperation.h */,
+				5D07C02C2044AC9100D1ECDC /* SDLSequentialRPCRequestOperation.m */,
+				88F89101221DE29A00E056AD /* SDLAsynchronousRPCOperation.h */,
+				888F86FD221DEE1F0052FE4C /* SDLAsynchronousRPCOperation.m */,
+			);
+			path = RequestOperations;
+			sourceTree = "<group>";
+		};
+		70C3EB0C24C00CA30081B29D /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				5D6F7A2C1BC5650B0070BF37 /* SDLLifecycleConfiguration.h */,
+				5D6F7A2D1BC5650B0070BF37 /* SDLLifecycleConfiguration.m */,
+				E4139D1B1F6017770005B6EA /* SDLLifecycleConfigurationUpdate.h */,
+				E4139D1C1F6017770005B6EA /* SDLLifecycleConfigurationUpdate.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		70C3EB0D24C00CD90081B29D /* LockScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5D4D67B21D30161600468B4A /* SDLLockScreenManager.h */,
+				5D4D67B31D30161600468B4A /* SDLLockScreenManager.m */,
+				70C3EB0E24C00CE10081B29D /* Configuration */,
+				70C3EB0F24C00CEC0081B29D /* LockScreenUI */,
+				70C3EB1024C00D480081B29D /* Utilities */,
+			);
+			path = LockScreen;
+			sourceTree = "<group>";
+		};
+		70C3EB0E24C00CE10081B29D /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				5D8204181BCD80BA00D0A41B /* SDLLockScreenConfiguration.h */,
+				5D8204191BCD80BA00D0A41B /* SDLLockScreenConfiguration.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		70C3EB0F24C00CEC0081B29D /* LockScreenUI */ = {
+			isa = PBXGroup;
+			children = (
+				5D6F7A3D1BC811FC0070BF37 /* SDLAssets.xcassets */,
+				5D616B481D552F7A00553F6B /* SDLLockScreen.storyboard */,
+				5D6F7A331BC5B9B60070BF37 /* SDLLockScreenViewController.h */,
+				5D6F7A341BC5B9B60070BF37 /* SDLLockScreenViewController.m */,
+			);
+			path = LockScreenUI;
+			sourceTree = "<group>";
+		};
+		70C3EB1024C00D480081B29D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				880723E923A2CFB4003D0489 /* SDLLockScreenRootViewController.h */,
+				880723EA23A2CFB4003D0489 /* SDLLockScreenRootViewController.m */,
+				5D76E3201D39742300647CFA /* SDLViewControllerPresentable.h */,
+				5D76E3221D39767000647CFA /* SDLLockScreenPresenter.h */,
+				5D76E3231D39767000647CFA /* SDLLockScreenPresenter.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		70C3EB1124C00DA70081B29D /* Permissions */ = {
+			isa = PBXGroup;
+			children = (
+				5D1665CC1CF8CA8A00CC4CA1 /* SDLPermissionConstants.h */,
+				5D1665C61CF8CA3D00CC4CA1 /* SDLPermissionFilter.h */,
+				5D1665C71CF8CA3D00CC4CA1 /* SDLPermissionFilter.m */,
+				5D8204241BCEA8A600D0A41B /* SDLPermissionManager.h */,
+				5D8204251BCEA8A600D0A41B /* SDLPermissionManager.m */,
+			);
+			path = Permissions;
+			sourceTree = "<group>";
+		};
+		70C3EB1224C00DB80081B29D /* Streaming */ = {
+			isa = PBXGroup;
+			children = (
+				70C3EB1724C00DFE0081B29D /* FocusAndHaptic */,
+				70C3EB1624C00DEC0081B29D /* CarWindow */,
+				70C3EB1424C00DD00081B29D /* AudioManager */,
+				70C3EB1324C00DBD0081B29D /* Configuration */,
+			);
+			path = Streaming;
+			sourceTree = "<group>";
+		};
+		70C3EB1324C00DBD0081B29D /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				5DA23FFE1F325621009C0313 /* SDLStreamingMediaConfiguration.h */,
+				5DA23FFF1F325621009C0313 /* SDLStreamingMediaConfiguration.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		70C3EB1424C00DD00081B29D /* AudioManager */ = {
+			isa = PBXGroup;
+			children = (
+				70C3EB1524C00DDB0081B29D /* Utilities */,
+				5D9FC29C1FD8813900ACA5C2 /* SDLAudioStreamManager.h */,
+				5D9FC29D1FD8813900ACA5C2 /* SDLAudioStreamManager.m */,
+				5D9FC29A1FD8812E00ACA5C2 /* SDLAudioStreamManagerDelegate.h */,
+			);
+			path = AudioManager;
+			sourceTree = "<group>";
+		};
+		70C3EB1524C00DDB0081B29D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5D9FC2A41FD8815800ACA5C2 /* SDLPCMAudioConverter.h */,
+				5D9FC2A51FD8815800ACA5C2 /* SDLPCMAudioConverter.m */,
+				5D9FC2A11FD8814A00ACA5C2 /* SDLAudioFile.h */,
+				5D9FC2A01FD8814A00ACA5C2 /* SDLAudioFile.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		70C3EB1624C00DEC0081B29D /* CarWindow */ = {
+			isa = PBXGroup;
+			children = (
+				5DCD7ADC1FCCA8D100A0FC7F /* SDLCarWindow.h */,
+				5DCD7ADD1FCCA8D200A0FC7F /* SDLCarWindow.m */,
+				5D293AFC1FE078A9000CBD7E /* SDLCarWindowViewController.h */,
+				5D293AFD1FE078A9000CBD7E /* SDLCarWindowViewController.m */,
+			);
+			path = CarWindow;
+			sourceTree = "<group>";
+		};
+		70C3EB1724C00DFE0081B29D /* FocusAndHaptic */ = {
+			isa = PBXGroup;
+			children = (
+				1FF7DAB71F75B28E00B46C30 /* SDLFocusableItemHitTester.h */,
+				1FF7DAB51F75B27300B46C30 /* SDLFocusableItemLocatorType.h */,
+				1FF7DAB91F75B2A800B46C30 /* SDLFocusableItemLocator.h */,
+				1FF7DABB1F75B2BF00B46C30 /* SDLFocusableItemLocator.m */,
+			);
+			path = FocusAndHaptic;
+			sourceTree = "<group>";
+		};
 		755F175E229F14F70041B9CB /* Dynamic Menu Update Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -6209,15 +6257,6 @@
 				755F176122A00B7C0041B9CB /* SDLMenuManagerConstants.h */,
 			);
 			name = "Dynamic Menu Update Utilities";
-			sourceTree = "<group>";
-		};
-		880245A120F79BDA00ED195B /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				880245A220F79C3400ED195B /* SDLFileManagerConfiguration.h */,
-				880245A320F79C3400ED195B /* SDLFileManagerConfiguration.m */,
-			);
-			name = Configuration;
 			sourceTree = "<group>";
 		};
 		880E35B12088F73400181259 /* System Capabilities */ = {
@@ -6434,10 +6473,6 @@
 		DA8966E71E56937100413EAB /* Streaming */ = {
 			isa = PBXGroup;
 			children = (
-				5D0A7377203F0C9E0001595D /* Configuration */,
-				5D23C9441FCF59F400002CA5 /* AudioManager */,
-				5DCD7AD91FCCA5BF00A0FC7F /* CarWindow */,
-				5DA5918E1F96820F003264C3 /* Focus / Haptic */,
 				DAC5724C1D0FE3B60004288B /* Touches */,
 				DA8966F01E56970C00413EAB /* Utilities */,
 				DAA41D521DF66B1100BC7337 /* Video Encoding */,
@@ -8179,7 +8214,6 @@
 				162E831A1A9BDE8B00906325 /* SDLOnLockScreenStatusSpec.m in Sources */,
 				000DD57422EF0957005AB7A7 /* SDLReleaseInteriorVehicleDataModuleSpec.m in Sources */,
 				162E83431A9BDE8B00906325 /* SDLSyncPDataSpec.m in Sources */,
-				167ED9461A9BCE5D00797BE5 /* SwiftSpec.swift in Sources */,
 				162E838B1A9BDE8B00906325 /* SDLSoftButtonCapabilitiesSpec.m in Sources */,
 				162E834C1A9BDE8B00906325 /* SDLAlertResponseSpec.m in Sources */,
 				1680B11B1A9CD7AD00DBD79E /* SDLFunctionIDSpec.m in Sources */,

@@ -30,5 +30,8 @@ let package = Package(
                 ],
                 publicHeadersPath: "include"
         ),
+        .testTarget(name: "SmartDeviceLinkTests",
+                    dependencies: ["SmartDeviceLink"],
+                    path: "SmartDeviceLinkTests")
     ]
 )
