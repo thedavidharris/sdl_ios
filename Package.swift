@@ -10,7 +10,9 @@ let package = Package(
     targets: [
         .target(
             name: "SmartDeviceLink",
-            path: "SmartDeviceLink"
+            dependencies: ["bson"],
+            path: "SmartDeviceLink",
+            publicHeadersPath: "."
         ),
         .target(
             name: "SmartDeviceLinkSwift",
@@ -18,6 +20,15 @@ let package = Package(
                 "SmartDeviceLink"
             ],
             path: "SmartDeviceLinkSwift"
+        ),
+        .target(name: "bson",
+                path: "Sources/bson",
+                sources: [
+                    "bson_array.c",
+                    "bson_object.c",
+                    "bson_util.c",
+                ],
+                publicHeadersPath: "include"
         ),
     ]
 )

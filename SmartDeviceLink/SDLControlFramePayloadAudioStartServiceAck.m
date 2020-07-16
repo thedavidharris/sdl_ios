@@ -8,7 +8,12 @@
 
 #import "SDLControlFramePayloadAudioStartServiceAck.h"
 
+#if SWIFT_PACKAGE
+@import bson;
+#else
 #import "bson_object.h"
+#endif
+
 #import "SDLControlFramePayloadConstants.h"
 
 

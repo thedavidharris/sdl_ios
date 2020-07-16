@@ -51,3 +51,5 @@ docs/docsets/
 **htmlcov
 **.coverage
 _debug*
+
+.build
